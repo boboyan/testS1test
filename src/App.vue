@@ -29,7 +29,6 @@
 </template>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
 
 * {
   margin: 0;
