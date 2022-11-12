@@ -58,7 +58,7 @@ export default {
     })
   },
   methods: {
-    deleteDogs(id) {
+    deleteDog(id) {
       if (window.confirm('Do you really want to delete?')) {
         db.collection('dogs').doc(id).delete().then(() => {
           console.log('Record deleted!')
