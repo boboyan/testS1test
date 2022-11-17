@@ -1,17 +1,26 @@
 <template>
+
+
+<br><br><br>
   <div class="hello">
+    We all love puppies<br>
+    The are cute and fluffy<br>
+    However, the potty training part might not be as cute<br>
+    Many new dog owners get frustrated on potty training<br>
+    Hey, dont worry<br>
+    It is not as hard as you think <br>
 
-<br><br>
+  </div>
 
-    <br>
-    <img :src="require('@/assets/pee1.jpg')" alt="Dog Potty Training">
+  <br><br>
+ <img :src="require('@/assets/pee1.jpg')" alt="Dog Potty Training">
+
 
    <h1>{{ msg }}</h1>
 
      <h3> No more accidents in the house, we've got you covered!</h3>
 
 
-  </div>
 </template>
 
 <script>
@@ -29,6 +38,13 @@ export default {
 
 
 
+.hello{
+  font-family: "Calibri Light";
+  font-size: larger;
+  text-align: center;
+
+
+}
 img {
   border-radius: 30px;
   margin-inline: fill;

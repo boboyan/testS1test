@@ -5,17 +5,17 @@
         <nav class="navbar justify-content-between flex-nowrap flex-row">
           <div class="container">
 
-            <h1>Puppy Potty Training Guide</h1>
+            <h1>Puppy Potty Training Guide🐾</h1>
 
 <br><br>
-                  <router-link  to="/">Home&#127968;</router-link>
+                  <router-link  to="/">Home</router-link>
 
-                  <router-link  to="/create">Add Puppies&#10133;</router-link>
+                  <router-link  to="/create">Add Puppies</router-link>
 
-                  <router-link  to="/List">View Puppies&#128054;</router-link>
+                  <router-link  to="/List">View Puppies</router-link>
 
 
-                  <router-link  to="/Tips">Tips&#9997;</router-link>
+                  <router-link  to="/Tips">Tips</router-link>
 
 
 
